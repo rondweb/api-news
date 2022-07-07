@@ -23,7 +23,7 @@ def generate_guid():
 
 def get_breaking_news(query, category, country):
     # API key authorization, Initialize the client with your API key
-    api = NewsDataApiClient(apikey="pub_898358f7c94fe16f5ee180d275d868676fd3")
+    api = NewsDataApiClient(apikey="pub_XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
     # You can pass empty or with request parameters {ex. (country = "us")}
     response = api.news_api(q=query, category=category,country = country)
 
